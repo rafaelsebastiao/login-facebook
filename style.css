@@ -2,9 +2,6 @@
 body{
     background-color: #F2F4F7;
     font-family: 'Roboto', 'sans-serif';
-    margin:0px;
-    display:flex;
-    flex-direction: column;
 }
 
 section>h2{
@@ -81,10 +78,9 @@ footer{
     font-size:0.7em;
     color:gray;
     display:flex;
-    width:92%;
+    width:90%;
     height:90px;
     padding-left:120px;
-    
 }
 
 button#login{
@@ -156,9 +152,9 @@ button#add-languages{
 
 header{
     background-color:#1877F2;
-    width:100%;
-    /* margin-top:-22px;
-    margin-left:-8px; */
+    width:1351px;
+    margin-top:-22px;
+    margin-left:-8px;
     color:white;
     text-align: center;
     height:100px;
