@@ -9,12 +9,21 @@ section>h2{
     color: #1877F2;
     font-size:3.5em;
     font-weight: bold;
+    text-align: center;
+    
 }
+
 
 p{
     font-size: 1.5em;
     width: 500px;
     text-align: justify;
+}
+
+div#header-form{
+    text-align: center;
+   
+    margin:auto;
 }
 
 main{
@@ -25,52 +34,43 @@ main{
 }   
 
 
-
-article#apresentation{
-    margin-right:100px;
-    margin-top:-65px;
-}
-
-
-div#articles-login{
-    display:flex;
-}
-
 form{
-    background-color: white;
     width:500px;
+    background-color: white;
     border-radius:5px;
-
-    width:396px;    
     height:650px;
-    margin-top: -130px;
     display:flex;
     flex-direction: column;
-    align-items: center;
-    padding-top:10px;
 
-    display:flex;
     align-items: start;
-    
     padding-left:20px;
-    padding: top 20px;
     margin-bottom:15px;
-
     box-shadow:0px 13px 61px -24px;
+    margin:auto;
+    margin-bottom:30px;
 }
+
+
+
 
 input, button, form>a{
     display:block;   
 }
 
-input{
-    width:365px;
-    height:50px;
+
+input[type="radio"]{
+    display:inline;
+}
+
+input[type="text"]{
+    width:195px;
+    height:30px;
     margin-bottom:10px;
     padding-left:20px;
     font-size:1em;
-    border: 1px solid #cfcfcf; /* 👈 define cor e espessura */
-    border-radius: 5px;     /* 👈 deixa arredondado */
+    border: 1px solid #cfcfcf; 
+    border-radius: 5px;   
+    margin-right:10px;
 }
 
 footer{
@@ -109,10 +109,51 @@ button{
     font-weight: bold;
 }
 
+#container-boxs-radios{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+#container-inputs-full-name{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.box-radio{
+    /* display:grid; */
+    /* grid-template-columns: 30% 20%; */
+    border:solid;
+    width:130px;
+    border-radius: 5px;    
+    margin-right:30px;
+    height:20px;
+
+    border: 1px solid #cfcfcf; 
+}
+
+
+#container-options{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    width:100%;
+}
+
+
+
+#container-options>input, #container-options>select{
+    height:30px;    
+    margin-right:10px;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf; 
+}
+
+
+
 form>a{
     margin: auto;
     text-decoration: none;
     color: #1877F2;
+
 }
 
 a:hover{
@@ -126,9 +167,6 @@ hr{
 article#information{
     font-size:0.5em;
     padding-left:600px;
-}
-
-article#information>p{
     text-align: center;
     width:350px;
 }
@@ -164,6 +202,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 h1{
     font-size:2.5em;  
 }
