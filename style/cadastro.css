@@ -14,24 +14,16 @@ section>h2{
 }
 
 
-p{
-    font-size: 1.5em;
-    width: 500px;
-    text-align: justify;
-}
-
 div#header-form{
     text-align: center;
-   
     margin:auto;
+    /* margin:0px; */
 }
 
-main{
-    margin:auto;
-    margin-top:200px;
-    padding-left:10%;
-    width:90%;
-}   
+#header-form>h3{
+    font-size:2em;
+}
+
 
 
 form{
@@ -50,6 +42,11 @@ form{
     margin-bottom:30px;
 }
 
+small{
+    display: block;
+    margin-bottom:10px;
+    color: #464545;
+}
 
 
 
@@ -73,16 +70,22 @@ input[type="text"]{
     margin-right:10px;
 }
 
+input#email, input#senha{
+    width:90%;
+}
+
 footer{
     background-color: white;
     text-align: center;
     font-size:0.7em;
     color:gray;
     display:flex;
-    width:93%;
+    width:91%;
     height:90px;
     padding-left:120px;
     margin-top:200px;
+
+    
 }
 
 button#login{
@@ -93,25 +96,32 @@ button#login{
     margin-bottom:10px;
 }
 
-button#sign-up{
-    background-color: #36A420;
+#sign-up{
+    background-color: #3fbe26;
     color:white;
     width:185px;
     height:50px;    
     margin:auto;
-}
 
-button{
-    width:300px;   
     border:none;
     border-radius:5px;
     font-size:1.3em;
     font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+a#sign-up:hover{
+    text-decoration: none;
+    background-color: #36A420;
+    
 }
 
 #container-boxs-radios{
     display: grid;
     grid-template-columns: 30% 30% 30%;
+    margin-bottom:10px;
 }
 
 #container-inputs-full-name{
@@ -147,7 +157,13 @@ button{
     border: 1px solid #cfcfcf; 
 }
 
+a{
+    text-decoration:none;
+}
 
+a:hover{
+    text-decoration:underline;
+}
 
 form>a{
     margin: auto;
@@ -179,22 +195,11 @@ div>a{
     margin-right:20px;
 }
 
-divs#languages{
-    display:flex;
-    justify-content: space-between;
-}
 
-button#add-languages{
-    width:30px;
-    height:30px;
-    background-color: #fcfcfc;
-}
 
 header{
     background-color:#1877F2;
     width:100%;
-    /* margin-top:-22px;
-    margin-left:-8px; */
     color:white;
     text-align: center;
     height:100px;

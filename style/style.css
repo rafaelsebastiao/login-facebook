@@ -14,9 +14,8 @@ section>h2{
 
 
 main{
-    margin:auto;
-    margin-top:200px;
     padding-left:10%;
+    /* padding-right:50%; */
     width:90%;
 }   
 
@@ -25,6 +24,7 @@ main{
 article#apresentation{
     margin-right:100px;
     margin-top:-65px;
+    font-size:1.8em;
 }
 
 
@@ -69,13 +69,17 @@ input{
     border-radius: 5px;     
 }
 
+article#forms{
+    margin-right:100px;
+}
+
 footer{
     background-color: white;
     text-align: center;
     font-size:0.7em;
     color:gray;
     display:flex;
-    width:93%;
+    width:91%;
     height:90px;
     padding-left:120px;
     margin-top:200px;
@@ -89,8 +93,9 @@ button#login{
     margin-bottom:10px;
 }
 
-
-
+button#login:hover{
+    background-color: #2481fa;
+}
 a#sign-up{
     background-color: #3fbe26;
     color:white;
@@ -147,7 +152,7 @@ hr{
 
 aside#information{
     font-size:1em;
-    padding-left:600px;
+    padding-left:700px;
    
 }
 
@@ -166,16 +171,8 @@ div>a{
     margin-right:20px;
 }
 
-divs#languages{
-    display:flex;
-    justify-content: space-between;
-}
 
-button#add-languages{
-    width:30px;
-    height:30px;
-    background-color: #fcfcfc;
-}
+
 
 header{
     background-color:#1877F2;
